@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Felipe Basilio - RU 5235626 — Currículo</title>
+    <meta name="description"
+        content="Currículo online de [Felipe Basilio - RU 5235626] — Sobre, Formação, Currículo e Contato." />
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <!-- Cabeçalho / Menu fixo -->
+    <header class="site-header" id="top">
+        <div class="container header-inner">
+            <a class="brand" href="#sobre">Felipe Basilio - RU 5235626</a>
+
+            <!-- Botão hamburguer para mobile -->
+            <button id="nav-toggle" class="nav-toggle" aria-controls="primary-nav" aria-expanded="false"
+                aria-label="Abrir menu">
+                <span class="hamburger"></span>
+            </button>
+
+            <nav id="primary-nav" class="primary-nav" role="navigation">
+                <ul>
+                    <li><a href="#sobre">Sobre mim</a></li>
+                    <li><a href="#formacao">Formação</a></li>
+                    <li><a href="#portfolio">Portifólio</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <button id="theme-toggle" class="theme-toggle" aria-pressed="false" title="Alternar tema">🌙</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main id="main">
+
+        <!-- SOBRE -->
+        <section id="sobre" class="section-card container about-section">
+            <h1>Sobre mim</h1>
+
+            <p>
+                Olá! Meu nome é <strong>Felipe Augusto Gonçalves Basilio</strong>, tenho <strong>34</strong> anos e moro
+                em <strong>Curitiba/PR</strong>, sou Desenvolvedor <strong>FullStack</strong> com
+                experiência sólida em
+                <strong>Python, Node.js, SQL, PL/pgSQL, FastAPI, SQLAlchemy, HTML, CSS e JavaScript</strong>.
+            </p>
+
+            <p>
+                Trabalho com desenvolvimento de sistemas web, rotinas de precificação, automação de processos e
+                integração de APIs.
+                Tenho perfil analítico, proativo e orientado a resultados, atuando tanto de forma independente quanto em
+                equipe.
+            </p>
+
+            <h3>Hobbies</h3>
+            <ul>
+                <li>Tocar guitarra e violão</li>
+                <li>Jogar bola</li>
+                <li>Viajar e sair</li>
+                <li>Assistir filmes, séries e ir ao cinema</li>
+            </ul>
+        </section>
+
+        <!-- FORMAÇÃO -->
+        <section id="formacao" class="section-card alt container">
+            <h2>Formação</h2>
+            <ul>
+                <li>
+                    <strong>Tecnologia em Ciência de Dados</strong><br />
+                    Centro Universitário Internacional – UNINTER<br />
+                    <em>Cursando</em>
+                </li>
+
+                <li>
+                    <strong>Técnico em Informática com Ênfase em Programação</strong><br />
+                    Colégio Estadual do Paraná<br />
+                    <em>Concluído</em>
+                </li>
+
+                <li><strong>Inglês:</strong> Intermediário</li>
+
+                <li><strong>Cursos complementares:</strong>
+                    <ul>
+                        <li>WebDesigner – Elaborata</li>
+                        <li>PHP – Elaborata</li>
+                        <li>Node – Udemy</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h3>Competências Técnicas</h3>
+            <ul>
+                <li>Python, Node.js, JavaScript (ES6+), HTML, CSS</li>
+                <li>SQL, PostgreSQL, MySQL, PL/pgSQL</li>
+                <li>SQLAlchemy, APIs REST, modelagem de dados</li>
+                <li>Ionic, Flutter (experiência anterior)</li>
+                <li>Git, GitHub, GitLab</li>
+            </ul>
+        </section>
+
+        <!-- Portifólio -->
+        <section id="portfolio" class="section-card container">
+            <h2>Portifólio</h2>
+
+            <p>Meus principais trabalhos públicos estão focados em:</p>
+            <ul>
+                <li>Projetos pessoais no GitHub</li>
+                <li>Artes e ilustrações criadas no passado</li>
+                <li>Experiência em APIs, backend e automação (a maior parte feita dentro das empresas)</li>
+            </ul>
+
+            <div class="grid">
+
+                <article class="card">
+                    <h3>Meu GitHub</h3>
+                    <p>Projetos, estudos, códigos e experimentos.</p>
+                    <p><a href="https://github.com/FeehGb" target="_blank">Acessar meu GitHub</a></p>
+                </article>
+
+                <article class="card">
+                    <h3>Galeria de Artes</h3>
+                    <p>Antigos trabalhos de design e ilustração publicados no DeviantArt.</p>
+                    <p><a href="https://www.deviantart.com/taurus0091" target="_blank">Ver minhas artes</a></p>
+                </article>
+
+                <article class="card">
+                    <h3>Projetos de Backend</h3>
+                    <p>
+                        Os sistemas e APIs que desenvolvi nas empresas não são públicos,
+                        mas incluem rotinas de precificação, integrações complexas e automações.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- CONTATO -->
+        <section id="contato" class="section-card alt container">
+            <h2>Contato</h2>
+            <p>Envie uma mensagem preenchendo o formulário abaixo:</p>
+
+            <form id="contact-form" novalidate>
+                <div class="form-row">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name" required />
+                    <small class="error" id="error-name"></small>
+                </div>
+
+                <div class="form-row">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required />
+                    <small class="error" id="error-email"></small>
+                </div>
+
+                <div class="form-row">
+                    <label for="message">Mensagem</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                    <small class="error" id="error-message"></small>
+                </div>
+
+                <div class="form-actions">
+                    <button type="submit">Enviar mensagem</button>
+                    <button type="reset" class="btn-secondary">Limpar</button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> <strong>[Felipe Basilio - RU 5235626]</strong> — Currículo</p>
+        </div>
+    </footer>
+
+    <!-- Modal de Confirmação (inicialmente escondido) -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close" aria-label="Fechar">✕</button>
+            <h3 id="modal-title">Mensagem enviada com sucesso!</h3>
+            <button id="modal-ok">OK</button>
+        </div>
+    </div>
+
+    <!-- Script JS -->
+    <script src="index.js"></script>
+</body>
+
+</html>
